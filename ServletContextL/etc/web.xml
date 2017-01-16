@@ -6,24 +6,14 @@
   version="4.0"
   metadata-complete="true">
 
-  <context-param>
-	<param-name>City</param-name>
-	<param-value>Wakefield</param-value>
-  </context-param>
-  
-  <context-param>
-	<param-name>Email</param-name>
-	<param-value>Andriusjavait@gmail.com</param-value>
-  </context-param>
-  
     <servlet>
-        <servlet-name>Servlet</servlet-name>
+        <servlet-name>Master</servlet-name>
         <servlet-class>com.example.servlet.MyServlet</servlet-class>
     </servlet>
 	
     <servlet-mapping>
-        <servlet-name>Servlet</servlet-name>
-        <url-pattern>/servlet.do</url-pattern>
+        <servlet-name>Master</servlet-name>
+        <url-pattern>/yes.do</url-pattern>
     </servlet-mapping>
 
 </web-app>
