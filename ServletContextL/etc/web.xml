@@ -12,7 +12,7 @@
 	
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
-        <url-pattern>/myServlet.do</url-pattern>
+        <url-pattern>/servletContext/myServlet.do</url-pattern>
     </servlet-mapping>
 
 	<context-param>
