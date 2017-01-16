@@ -7,13 +7,13 @@
   metadata-complete="true">
 
     <servlet>
-        <servlet-name>Master</servlet-name>
+        <servlet-name>MyServlet</servlet-name>
         <servlet-class>com.example.servlet.MyServlet</servlet-class>
     </servlet>
 	
     <servlet-mapping>
-        <servlet-name>Master</servlet-name>
-        <url-pattern>/yes.do</url-pattern>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/go.do</url-pattern>
     </servlet-mapping>
 
 </web-app>
