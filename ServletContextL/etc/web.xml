@@ -6,6 +6,10 @@
   version="4.0"
   metadata-complete="true">
 
+	<listener>
+		<listener-class>com.example.listener.MyServletContextListener</listener-class>
+	</listener>
+
     <servlet>
         <servlet-name>MyServlet</servlet-name>
         <servlet-class>com.example.servlet.MyServlet</servlet-class>
@@ -16,4 +20,8 @@
         <url-pattern>/go.do</url-pattern>
     </servlet-mapping>
 
+	<context-param>
+		<param-name>BabyName</param-name>
+		<param-value>Gabriela</param-value>
+    </context-param>
 </web-app>
