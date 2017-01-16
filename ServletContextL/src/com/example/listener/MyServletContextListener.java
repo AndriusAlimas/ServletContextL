@@ -10,7 +10,9 @@ public class MyServletContextListener implements ServletContextListener {
 	
 	@Override
 	public void contextDestroyed(ServletContextEvent event) {
-		// TODO Auto-generated method stub
+		    System.out.println("\n*****************************************\n");
+	        System.out.println("ContextDestroyed method was called from " + className);
+	        System.out.println("Simply Destroying All content!");
 		
 	}
 
